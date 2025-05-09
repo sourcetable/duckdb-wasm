@@ -275,7 +275,7 @@ wasm_debug: wasm_setup
 	${EXEC_ENVIRONMENT} ${ROOT_DIR}/scripts/wasm_build_lib.sh debug eh
 	${EXEC_ENVIRONMENT} ${ROOT_DIR}/scripts/wasm_build_lib.sh debug coi
 
-wasm: wasm_relperf
+wasm: wasm_relsize
 
 .PHONY: wasm_star
 wasm_star: wasm_relsize wasm_relperf wasm_dev wasm_debug
@@ -354,7 +354,7 @@ app_start_corp:
 
 .PHONY: app
 app: wasm wasmpack shell docs js_tests_release
-	yarn workspace @duckdb/duckdb-wasm-app build:release
+	NODE_OPTIONS="--max-old-space-size=8192" yarn workspace @duckdb/duckdb-wasm-app build:release
 
 build_loadable:
 	DUCKDB_PLATFORM=wasm_${TARGET} DUCKDB_WASM_LOADABLE_EXTENSIONS=1 GEN=ninja ./scripts/wasm_build_lib.sh relsize ${TARGET}
@@ -396,8 +396,11 @@ eslint:
 # Install all yarn packages
 .PHONY: yarn_install
 yarn_install:
-	yarn
-	yarn install
+	./scripts/simple-install.sh
+
+.PHONY: yarn_install_clean
+yarn_install_clean:
+	./scripts/simple-install.sh clean
 
 .PHONY: examples
 examples: yarn_install

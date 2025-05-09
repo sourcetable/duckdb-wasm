@@ -96,8 +96,51 @@ cd duckdb-wasm
 git submodule init
 git submodule update
 make apply_patches
+
+# Install dependencies with increased memory allocation
+# (DuckDB WASM files are large and may cause standard yarn install to fail)
+yarn install:highmem
+# Or clean install:
+# yarn install:clean
+
+# To ensure all WASM variants including COI (with threading support) are built:
+yarn build:all-wasm
+# Or run directly:
+# ./scripts/build-all-wasm.sh
+
+# Build the JS package
+yarn workspace @duckdb/duckdb-wasm build:debug
+
+# Or build everything with increased memory allocation:
+# yarn build:highmem
+
+# Or serve the application
 make serve
 ```
+
+### Troubleshooting Memory Issues
+
+If you encounter `Couldn't allocate enough memory` errors during the build process:
+
+1. Use the high-memory installation script:
+   ```
+   yarn install:highmem
+   ```
+
+2. For a clean installation:
+   ```
+   yarn install:clean
+   ```
+
+3. For building with increased memory:
+   ```
+   yarn build:highmem
+   ```
+
+4. Or manually set Node options:
+   ```
+   NODE_OPTIONS="--max-old-space-size=8192" yarn ...
+   ```
 
 ## Repository Structure
 

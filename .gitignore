@@ -6,6 +6,7 @@
 /worktrees
 /.cache
 /.ccache
+/.yarn/*
 .tmp
 /.flatc
 /.testfile*

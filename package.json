@@ -13,9 +13,11 @@
         "docs": "yarn workspace @duckdb/duckdb-wasm docs",
         "benchmarks:build:browser": "yarn workspace @duckdb/benchmarks build:browser",
         "benchmarks:build:node": "yarn workspace @duckdb/benchmarks build:node",
-        "benchmarks:build": "yarn workspace @duckdb/benchmarks build"
+        "benchmarks:build": "yarn workspace @duckdb/benchmarks build",
+        "build:all-wasm": "./scripts/build-all-wasm.sh"
     },
     "devDependencies": {
         "badge-maker": "^3.3.1"
-    }
+    },
+    "packageManager": "yarn@3.2.1+sha512.2e8753234dc01d8cc7ed64c98e459a382c68cf239ce06102b2bec91cbbdf383ba520010e85df0f70fc400648d0706ac5bf37b59d99e3488c44a5436b50bf4204"
 }
