@@ -34,7 +34,8 @@ function printErr(err) {
 // Wasm plugin
 
 const mode = is_debug ? '--debug' : '--release';
-execSync(`wasm-pack build --target web --out-dir ./pkg --out-name shell ${mode}`, {
+// Ensure we build with the correct module format for ESM compatibility
+execSync(`wasm-pack build --target bundler --out-dir ./pkg --out-name shell ${mode}`, {
     cwd: path.join(__dirname, 'crate'),
     stdio: 'inherit',
 });

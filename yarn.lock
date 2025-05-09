@@ -727,14 +727,14 @@ __metadata:
 
 "@duckdb/duckdb-wasm-shell@file:../duckdb-wasm-shell::locator=%40duckdb%2Fduckdb-wasm-app%40workspace%3Apackages%2Fduckdb-wasm-app":
   version: 1.11.0
-  resolution: "@duckdb/duckdb-wasm-shell@file:../duckdb-wasm-shell#../duckdb-wasm-shell::hash=975820&locator=%40duckdb%2Fduckdb-wasm-app%40workspace%3Apackages%2Fduckdb-wasm-app"
+  resolution: "@duckdb/duckdb-wasm-shell@file:../duckdb-wasm-shell#../duckdb-wasm-shell::hash=8e5950&locator=%40duckdb%2Fduckdb-wasm-app%40workspace%3Apackages%2Fduckdb-wasm-app"
   dependencies:
     "@duckdb/duckdb-wasm": "file:../duckdb-wasm"
     xterm: ^5.3.0
     xterm-addon-fit: ^0.8.0
     xterm-addon-web-links: ^0.9.0
     xterm-addon-webgl: ^0.16.0
-  checksum: 50ea10b26776025bdb8b0d101bee54c6da6f02e65bff3696a2b87e3fb8f4f0484ba1955703ff351e643e0eb8c9e8753c571dbdf16b7edb0ab24bab39f27e6f77
+  checksum: a07e65e261666efedc2db24677f6477464a364b06ef2c639cfdc72cae8c2419c017b78c4abb56d5490ee80def64463dc5bb2de57d1f534ecd3252f5ad980c57d
   languageName: node
   linkType: hard
 
@@ -763,73 +763,73 @@ __metadata:
 
 "@duckdb/duckdb-wasm@file:../../packages/duckdb-wasm::locator=%40duckdb%2Fduckdb-wasm-examples-bare-browser%40workspace%3Aexamples%2Fbare-browser":
   version: 1.11.0
-  resolution: "@duckdb/duckdb-wasm@file:../../packages/duckdb-wasm#../../packages/duckdb-wasm::hash=56ac3d&locator=%40duckdb%2Fduckdb-wasm-examples-bare-browser%40workspace%3Aexamples%2Fbare-browser"
+  resolution: "@duckdb/duckdb-wasm@file:../../packages/duckdb-wasm#../../packages/duckdb-wasm::hash=8319fb&locator=%40duckdb%2Fduckdb-wasm-examples-bare-browser%40workspace%3Aexamples%2Fbare-browser"
   dependencies:
     apache-arrow: ^17.0.0
-  checksum: 6a972a73f0cd09ffa04c350d463329655e1a473d1919a2b7fb38eaf4ce92308fcb866969f6ef8632f1c534b276e08dcc35e8075fa2fc59079aed7987d7fa0439
+  checksum: 8d57f1fc426237d6355326fd7a1aca36e24bd5b2a5ddfc06ec7a476551ec774a5b6ecf5cb261392d020b0ecf014d35959570fc14a5ee3de2fec76c7e06a7d57c
   languageName: node
   linkType: hard
 
 "@duckdb/duckdb-wasm@file:../../packages/duckdb-wasm::locator=%40duckdb%2Fduckdb-wasm-examples-bare-node%40workspace%3Aexamples%2Fbare-node":
   version: 1.11.0
-  resolution: "@duckdb/duckdb-wasm@file:../../packages/duckdb-wasm#../../packages/duckdb-wasm::hash=56ac3d&locator=%40duckdb%2Fduckdb-wasm-examples-bare-node%40workspace%3Aexamples%2Fbare-node"
+  resolution: "@duckdb/duckdb-wasm@file:../../packages/duckdb-wasm#../../packages/duckdb-wasm::hash=8319fb&locator=%40duckdb%2Fduckdb-wasm-examples-bare-node%40workspace%3Aexamples%2Fbare-node"
   dependencies:
     apache-arrow: ^17.0.0
-  checksum: 6a972a73f0cd09ffa04c350d463329655e1a473d1919a2b7fb38eaf4ce92308fcb866969f6ef8632f1c534b276e08dcc35e8075fa2fc59079aed7987d7fa0439
+  checksum: 8d57f1fc426237d6355326fd7a1aca36e24bd5b2a5ddfc06ec7a476551ec774a5b6ecf5cb261392d020b0ecf014d35959570fc14a5ee3de2fec76c7e06a7d57c
   languageName: node
   linkType: hard
 
 "@duckdb/duckdb-wasm@file:../../packages/duckdb-wasm::locator=%40duckdb%2Fduckdb-wasm-examples-esbuild-browser%40workspace%3Aexamples%2Fesbuild-browser":
   version: 1.11.0
-  resolution: "@duckdb/duckdb-wasm@file:../../packages/duckdb-wasm#../../packages/duckdb-wasm::hash=56ac3d&locator=%40duckdb%2Fduckdb-wasm-examples-esbuild-browser%40workspace%3Aexamples%2Fesbuild-browser"
+  resolution: "@duckdb/duckdb-wasm@file:../../packages/duckdb-wasm#../../packages/duckdb-wasm::hash=8319fb&locator=%40duckdb%2Fduckdb-wasm-examples-esbuild-browser%40workspace%3Aexamples%2Fesbuild-browser"
   dependencies:
     apache-arrow: ^17.0.0
-  checksum: 6a972a73f0cd09ffa04c350d463329655e1a473d1919a2b7fb38eaf4ce92308fcb866969f6ef8632f1c534b276e08dcc35e8075fa2fc59079aed7987d7fa0439
+  checksum: 8d57f1fc426237d6355326fd7a1aca36e24bd5b2a5ddfc06ec7a476551ec774a5b6ecf5cb261392d020b0ecf014d35959570fc14a5ee3de2fec76c7e06a7d57c
   languageName: node
   linkType: hard
 
 "@duckdb/duckdb-wasm@file:../../packages/duckdb-wasm::locator=%40duckdb%2Fduckdb-wasm-examples-esbuild-node%40workspace%3Aexamples%2Fesbuild-node":
   version: 1.11.0
-  resolution: "@duckdb/duckdb-wasm@file:../../packages/duckdb-wasm#../../packages/duckdb-wasm::hash=56ac3d&locator=%40duckdb%2Fduckdb-wasm-examples-esbuild-node%40workspace%3Aexamples%2Fesbuild-node"
+  resolution: "@duckdb/duckdb-wasm@file:../../packages/duckdb-wasm#../../packages/duckdb-wasm::hash=8319fb&locator=%40duckdb%2Fduckdb-wasm-examples-esbuild-node%40workspace%3Aexamples%2Fesbuild-node"
   dependencies:
     apache-arrow: ^17.0.0
-  checksum: 6a972a73f0cd09ffa04c350d463329655e1a473d1919a2b7fb38eaf4ce92308fcb866969f6ef8632f1c534b276e08dcc35e8075fa2fc59079aed7987d7fa0439
+  checksum: 8d57f1fc426237d6355326fd7a1aca36e24bd5b2a5ddfc06ec7a476551ec774a5b6ecf5cb261392d020b0ecf014d35959570fc14a5ee3de2fec76c7e06a7d57c
   languageName: node
   linkType: hard
 
 "@duckdb/duckdb-wasm@file:../duckdb-wasm::locator=%40duckdb%2Fbenchmarks%40workspace%3Apackages%2Fbenchmarks":
   version: 1.11.0
-  resolution: "@duckdb/duckdb-wasm@file:../duckdb-wasm#../duckdb-wasm::hash=56ac3d&locator=%40duckdb%2Fbenchmarks%40workspace%3Apackages%2Fbenchmarks"
+  resolution: "@duckdb/duckdb-wasm@file:../duckdb-wasm#../duckdb-wasm::hash=8319fb&locator=%40duckdb%2Fbenchmarks%40workspace%3Apackages%2Fbenchmarks"
   dependencies:
     apache-arrow: ^17.0.0
-  checksum: 6a972a73f0cd09ffa04c350d463329655e1a473d1919a2b7fb38eaf4ce92308fcb866969f6ef8632f1c534b276e08dcc35e8075fa2fc59079aed7987d7fa0439
+  checksum: 8d57f1fc426237d6355326fd7a1aca36e24bd5b2a5ddfc06ec7a476551ec774a5b6ecf5cb261392d020b0ecf014d35959570fc14a5ee3de2fec76c7e06a7d57c
   languageName: node
   linkType: hard
 
 "@duckdb/duckdb-wasm@file:../duckdb-wasm::locator=%40duckdb%2Fduckdb-wasm-app%40workspace%3Apackages%2Fduckdb-wasm-app":
   version: 1.11.0
-  resolution: "@duckdb/duckdb-wasm@file:../duckdb-wasm#../duckdb-wasm::hash=56ac3d&locator=%40duckdb%2Fduckdb-wasm-app%40workspace%3Apackages%2Fduckdb-wasm-app"
+  resolution: "@duckdb/duckdb-wasm@file:../duckdb-wasm#../duckdb-wasm::hash=8319fb&locator=%40duckdb%2Fduckdb-wasm-app%40workspace%3Apackages%2Fduckdb-wasm-app"
   dependencies:
     apache-arrow: ^17.0.0
-  checksum: 6a972a73f0cd09ffa04c350d463329655e1a473d1919a2b7fb38eaf4ce92308fcb866969f6ef8632f1c534b276e08dcc35e8075fa2fc59079aed7987d7fa0439
+  checksum: 8d57f1fc426237d6355326fd7a1aca36e24bd5b2a5ddfc06ec7a476551ec774a5b6ecf5cb261392d020b0ecf014d35959570fc14a5ee3de2fec76c7e06a7d57c
   languageName: node
   linkType: hard
 
-"@duckdb/duckdb-wasm@file:../duckdb-wasm::locator=%40duckdb%2Fduckdb-wasm-shell%40file%3A..%2Fduckdb-wasm-shell%23..%2Fduckdb-wasm-shell%3A%3Ahash%3D975820%26locator%3D%2540duckdb%252Fduckdb-wasm-app%2540workspace%253Apackages%252Fduckdb-wasm-app":
+"@duckdb/duckdb-wasm@file:../duckdb-wasm::locator=%40duckdb%2Fduckdb-wasm-shell%40file%3A..%2Fduckdb-wasm-shell%23..%2Fduckdb-wasm-shell%3A%3Ahash%3D8e5950%26locator%3D%2540duckdb%252Fduckdb-wasm-app%2540workspace%253Apackages%252Fduckdb-wasm-app":
   version: 1.11.0
-  resolution: "@duckdb/duckdb-wasm@file:../duckdb-wasm#../duckdb-wasm::hash=56ac3d&locator=%40duckdb%2Fduckdb-wasm-shell%40file%3A..%2Fduckdb-wasm-shell%23..%2Fduckdb-wasm-shell%3A%3Ahash%3D975820%26locator%3D%2540duckdb%252Fduckdb-wasm-app%2540workspace%253Apackages%252Fduckdb-wasm-app"
+  resolution: "@duckdb/duckdb-wasm@file:../duckdb-wasm#../duckdb-wasm::hash=8319fb&locator=%40duckdb%2Fduckdb-wasm-shell%40file%3A..%2Fduckdb-wasm-shell%23..%2Fduckdb-wasm-shell%3A%3Ahash%3D8e5950%26locator%3D%2540duckdb%252Fduckdb-wasm-app%2540workspace%253Apackages%252Fduckdb-wasm-app"
   dependencies:
     apache-arrow: ^17.0.0
-  checksum: 6a972a73f0cd09ffa04c350d463329655e1a473d1919a2b7fb38eaf4ce92308fcb866969f6ef8632f1c534b276e08dcc35e8075fa2fc59079aed7987d7fa0439
+  checksum: 8d57f1fc426237d6355326fd7a1aca36e24bd5b2a5ddfc06ec7a476551ec774a5b6ecf5cb261392d020b0ecf014d35959570fc14a5ee3de2fec76c7e06a7d57c
   languageName: node
   linkType: hard
 
 "@duckdb/duckdb-wasm@file:../duckdb-wasm::locator=%40duckdb%2Fduckdb-wasm-shell%40workspace%3Apackages%2Fduckdb-wasm-shell":
   version: 1.11.0
-  resolution: "@duckdb/duckdb-wasm@file:../duckdb-wasm#../duckdb-wasm::hash=56ac3d&locator=%40duckdb%2Fduckdb-wasm-shell%40workspace%3Apackages%2Fduckdb-wasm-shell"
+  resolution: "@duckdb/duckdb-wasm@file:../duckdb-wasm#../duckdb-wasm::hash=8319fb&locator=%40duckdb%2Fduckdb-wasm-shell%40workspace%3Apackages%2Fduckdb-wasm-shell"
   dependencies:
     apache-arrow: ^17.0.0
-  checksum: 6a972a73f0cd09ffa04c350d463329655e1a473d1919a2b7fb38eaf4ce92308fcb866969f6ef8632f1c534b276e08dcc35e8075fa2fc59079aed7987d7fa0439
+  checksum: 8d57f1fc426237d6355326fd7a1aca36e24bd5b2a5ddfc06ec7a476551ec774a5b6ecf5cb261392d020b0ecf014d35959570fc14a5ee3de2fec76c7e06a7d57c
   languageName: node
   linkType: hard
 
