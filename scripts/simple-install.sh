@@ -43,6 +43,10 @@ echo "Building EH variant..."
 echo "Building COI variant..."
 ./scripts/wasm_build_lib.sh relsize coi
 
+# Install TypeScript globally
+echo "Installing TypeScript globally..."
+npm install -g typescript
+
 # Install remaining JS dependencies with increased memory
 echo "Installing remaining dependencies with basic yarn install..."
 NODE_OPTIONS="--max-old-space-size=8192" yarn install || echo "Yarn install had issues, but we will continue since we built the WASM files directly"
